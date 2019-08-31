@@ -54,7 +54,7 @@ game = Game.new
 # The Game method is invoked by the following description
 
 while game.pon(player.hand, enemy.hand) do
-  again = janken
+  again = game
 end
 
 # The Ruby description written here is a template prepared as a hint.
